@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+#img-1{
+    float: left;
+    width: 7vw;
+    height: auto;
+    clip-path: circle(39%);
+    
+    
+}
+nav{
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    background: #2378e7ef;
+    color: white;
+    
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3.8vw;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: red;
+}
+
+.username-btn{
+    padding: 1rem ;
+    background-color: #e6f3ff;
+    color: #007bff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: 87vh;
+  justify-content: space-between;
+  padding: 5vw;
+  background: lightyellow;
+}
+
+.hero-left {
+    
+  flex: 1;
+  padding-right: 40px;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 span {
+  color: #3498db;
+}
+
+.hero-left p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 5vh;
+  margin-bottom: 25px;
+}
+
+.hero-left button {
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-left button:hover {
+  background-color: #02436e;
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.hero-right img {
+  width: 20vw;
+  height: auto;
+  max-width: 600px;
+}
+    
